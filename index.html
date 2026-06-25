@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InkVerse · Tatuagens</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- cabeçalho -->
+    <header class="header">
+        <div class="container header__inner">
+            <h1 class="logo">⚡ InkVerse</h1>
+            <nav class="nav">
+                <a href="#galeria">Galeria</a>
+                <a href="#destaque">Destaque</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- hero / chamada -->
+    <section class="hero">
+        <div class="container hero__content">
+            <h2>Arte na pele,<br>histórias eternas.</h2>
+            <p>Inspiração, estilo e tinta de verdade.</p>
+            <a href="#galeria" class="btn">Ver galeria</a>
+        </div>
+    </section>
+
+    <!-- galeria de tatuagens -->
+    <section id="galeria" class="gallery">
+        <div class="container">
+            <h2 class="section-title">🌿 Galeria</h2>
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- as imagens serão inseridas via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- destaque / depoimento -->
+    <section id="destaque" class="highlight">
+        <div class="container highlight__inner">
+            <div class="highlight__text">
+                <span class="badge">🔥 Destaque</span>
+                <h3>“A tatuagem é a única coisa que você pode usar todos os dias e que nunca sai de moda.”</h3>
+                <p>— Equipe InkVerse</p>
+            </div>
+            <div class="highlight__image">
+                <img src="https://images.unsplash.com/photo-1590540421704-8121c5e46a5a?w=400&h=300&fit=crop&crop=center&auto=format" alt="tatuagem destaque">
+            </div>
+        </div>
+    </section>
+
+    <!-- contato simples -->
+    <section id="contato" class="contact">
+        <div class="container contact__inner">
+            <h2 class="section-title">✉️ Contato</h2>
+            <p>Quer uma arte exclusiva? Mande uma mensagem.</p>
+            <form id="contactForm" class="contact-form">
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu e-mail" required>
+                <textarea rows="3" placeholder="Ideia para a tatuagem..."></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- rodapé -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p>&copy; 2026 InkVerse · tatuagens com alma</p>
+            <div class="social">
+                <span>📸</span>
+                <span>🐦</span>
+                <span>📘</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
